@@ -6,6 +6,7 @@ public class Parsing {
 	
 	private static int lCount = 0;
 	
+	//웹에서 할려면 이걸 웹에서 출력하고 입력받는 것을 따로 만들어야함.
 	public static void Structure(String dataType,int numberOfItem, String parsingResult) {
 		
 		String repeat = ("    ").repeat(lCount);
