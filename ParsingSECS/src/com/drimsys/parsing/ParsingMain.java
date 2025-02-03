@@ -40,7 +40,7 @@ public class ParsingMain {
         		length = Integer.parseInt(sb.toString(), 2);
         	}
         	
-        	if(index==4) {
+        	if(index==4) { 
         		String str = convertResult.get(index);
         		wBit = Integer.parseInt(str.substring(0, 4),2);
         		stream = Integer.parseInt(str.substring(4),2);
