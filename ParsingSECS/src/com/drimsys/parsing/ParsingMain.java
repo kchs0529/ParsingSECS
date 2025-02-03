@@ -38,7 +38,7 @@ public class ParsingMain {
         	if(index<4) {
         		sb.append(convertResult.get(index));
         		length = Integer.parseInt(sb.toString(), 2);
-        	}
+        	} 
         	
         	if(index==4) { 
         		String str = convertResult.get(index);
